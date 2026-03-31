@@ -27,7 +27,7 @@ const OAuth2Callback = () => {
     } else {
       navigate('/login');
     }
-  }, []);
+  }, [searchParams,navigate,loginWithToken]);
 
   return (
     <div style={{
